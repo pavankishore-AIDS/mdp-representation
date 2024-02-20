@@ -28,9 +28,30 @@ Write your answer here
 
 ## PYTHON REPRESENTATION:
 Write your code here
+```
+P = {
+    0:{
+        0: [(1.0,0,0.0,True)],
+        1: [(1.0,0,0.0,True)]
+    },
+    1:{
+        0: [(1.0,0,0.0,True)],
+        1: [(1.0,2,1.0,True)]
+    },
+    2:{
+        0: [(1.0,2,0.0,True)],
+        1: [(1.0,2,0.0,True)]
+    }
+}
 
+```
 ## OUTPUT:
 Write your Python output here
+```
+{0: {0: [(1.0, 0, 0.0, True)], 1: [(1.0, 0, 0.0, True)]},
+ 1: {0: [(1.0, 0, 0.0, True)], 1: [(1.0, 2, 1.0, True)]},
+ 2: {0: [(1.0, 2, 0.0, True)], 1: [(1.0, 2, 0.0, True)]}}
+```
 
 ## RESULT:
 Write your output here
