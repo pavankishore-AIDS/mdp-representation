@@ -1,31 +1,43 @@
 # MDP REPRESENTATION
 
 ## AIM:
-Write your aim here
+To represent a Markov Decision Process(MDP) problem in the following ways.
 
+Text representation
+Graphical representation
+Python - Dictonary representation
 ## PROBLEM STATEMENT:
 
 ### Problem Description
-Write your answer here
+Imagine a game where you are managing a plant's health.The plant can be either in good health or welted state.
 
 ### State Space
-Write your answer here
+{W,S,H} -> {0,1,2}
+where,
+
+W -> Wilted state
+S -> Stationary(idle)
+H -> Healthy
 
 ### Sample State
-Write your answer here
+H -> 2
+The plant is healthy.
 
 ### Action Space
-Write your answer here
+{W,D} -> {0,1} where,
+
+W -> Water the plant
+D -> Do nothing
 
 ### Sample Action
-Write your answer here
-
+W -> 0
+The plant is watered
 ### Reward Function
-Write your answer here
+R = { +1,when water is poured,
+0,otherwise}
 
 ### Graphical Representation
-Write your answer here
-
+![rla](https://github.com/Aadheeshwar-AIDS/mdp-representation/assets/93427205/e93d8140-457e-42e4-95bc-b6660d8c4bca)
 ## PYTHON REPRESENTATION:
 Write your code here
 ```
